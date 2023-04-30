@@ -1,4 +1,4 @@
-package techproed.tests;
+package techproed.tests.homeWork;
 
 public class C03_SoftAssert {
 //        1. “http://zero.webappsecurity.com/” Adresine gidin
