@@ -1,5 +1,5 @@
 package techproed.tests.day24;
-import org.openqa.selenium.By;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.OpenSourcePage;
