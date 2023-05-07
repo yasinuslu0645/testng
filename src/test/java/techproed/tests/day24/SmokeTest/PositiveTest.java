@@ -1,10 +1,12 @@
 package techproed.tests.day24.SmokeTest;
+
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.BlueRentalPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+
 public class PositiveTest {
     @Test
     public void test1() {

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="istenen class calistirme">
+        <classes>
+            <class name="techproed.tests.day25.C01_ExcelTest1">
+                <methods>
+                    <include name="excelTest1"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day25.C02_BlueRentalExcelTest">
+                <methods>
+                    <include name="excelTest"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day25.C03_BlueRentalExcelTest2">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day25.C04_DataProvider">
+                <methods>
+                    <include name="testdataprovider"/>
+                    <include name="googleTest"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.day25.C05_DataProvider">
+                <methods>
+                    <include name="testdataprovider"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

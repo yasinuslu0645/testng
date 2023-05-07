@@ -27,7 +27,7 @@ public class NegativeTest {
                 Keys.TAB,ConfigReader.getProperty("fakepass"));
         blueRentalPage.login2.click();
         ReusableMethods.bekle(3);
-        ReusableMethods.tumSayfaResmi();
+        ReusableMethods.tumSayfaResmi("tumSayfaResmi");
         Assert.assertTrue(blueRentalPage.hataMesaji.isDisplayed());
         Driver.closeDriver();
     }

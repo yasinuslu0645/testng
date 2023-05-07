@@ -1,13 +1,16 @@
 package techproed.tests.day24;
+
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import techproed.pages.TestCenterTechproPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
+
 public class C03_PageKullanimi {
     @Test
     public void test1() {
+
         //https://testcenter.techproeducation.com/index.php?page=form-authentication
         Driver.getDriver().get(ConfigReader.getProperty("testCenterUrl"));
 
@@ -20,5 +23,7 @@ public class C03_PageKullanimi {
         //Sayfadan cikis yap ve cikis yapildigini test et
         testCenterTechproPage.logout.click();
         Assert.assertTrue(testCenterTechproPage.giris.isDisplayed());
+        Driver.closeDriver();
+
     }
 }
