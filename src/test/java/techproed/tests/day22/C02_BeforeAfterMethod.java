@@ -1,4 +1,4 @@
-package techproed.tests.day22_Annotation;
+package techproed.tests.day22;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
